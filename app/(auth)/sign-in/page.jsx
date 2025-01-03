@@ -1,8 +1,5 @@
-const SignIn = () => {
+import AuthForm from "@/components/AuthForm";
 
-  return (
-    <div>SignIn</div>
-  );
-};
+const SignIn = () => <AuthForm type="sign-in" />;
 
 export default SignIn;
